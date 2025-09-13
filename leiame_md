@@ -1,0 +1,27 @@
+# Desafio Super Trunfo - Países (Nível Novato)
+
+Sistema de comparação de cartas de cidades com base em atributos como população, área, PIB, pontos turísticos e densidade populacional.
+
+## 🎯 Atributos
+
+- Estado
+- Código da carta
+- Nome da cidade
+- População
+- Área (km²)
+- PIB (em bilhões)
+- Número de pontos turísticos
+
+## 🧠 Lógica
+
+- Usuário cadastra 2 cartas manualmente
+- Escolhe um atributo para comparar
+- O sistema determina a carta vencedora com base em:
+  - Maior valor (exceto densidade populacional)
+  - Menor densidade populacional vence
+
+## 🚀 Como executar
+
+```bash
+gcc main.c -o supertrunfo
+./supertrunfo
